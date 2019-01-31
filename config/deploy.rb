@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "marketscout"
-set :repo_url, "https://github.com/olindos/marketscout"
+set :repo_url, "git@github.com:olindos/marketscout.git"
 
 set :deploy_to, '/home/ms/marketscout'
 
