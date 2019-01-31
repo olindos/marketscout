@@ -78,8 +78,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-staging:
+production:
   <<: *default
-  database: marketscout_staging
-  username: olindos
+  database: marketscout_production
+  username: marketscout
   password: <%= ENV['MARKETSCOUT_DATABASE_PASSWORD'] %>
